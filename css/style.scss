@@ -29,3 +29,9 @@ body {
         justify-content: center;
     }
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+}
