@@ -22,4 +22,10 @@ body {
     display: grid;
     place-items: center;
     @include set-height-and-width(100vh, 100vw);
+    text-align: center;
+    &-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }

@@ -11,6 +11,12 @@ body {
   place-items: center;
   height: 100vh;
   width: 100vw;
+  text-align: center;
+}
+.container-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
